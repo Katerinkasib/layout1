@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Revalia-Regula";
+    src: url("../fonts/Revalia-Regular.woff2") format("woff2"),
+         url("../fonts/Revalia-Regular.woff") format("woff");   
+        
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+         url("../fonts/Roboto-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+         url("../fonts/Roboto-Medium.woff") format("woff");
+    font-weight: 500;  
+    font-style: normal;   
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto-Regular";
+}
+
+.header, .main-section {
+    padding-top: 0;
+    background-color: #eeeff1;
+}
+
+.fixed-container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1240px;
+}
+
+.menu-container {
+    padding-top: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+   padding-left: 88px;
+   padding-top: 18px; 
+}
+
+.header-menu {
+    padding-top: 20px;
+    
+}
+
+.menu {
+    display: flex
+}
+
+nav ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 15px;
+    font-family: "Roboto-Medium";
+    letter-spacing: 0.5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-right: 55px;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+
+.burger-icon {
+    display: none;
+    margin-top: 1px;
+    margin-left: 20px;
+
+}
+
+.burger-icon span {
+    display: block;
+    width: 45px;
+    height: 7px;
+    background-color: rgb(97, 101, 122);
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 138px;
+    padding-bottom: 160px;
+}
+.frame {
+    padding-top: 20px;
+    padding-left: 170px;
+}
+
+.right-part {
+
+}
+
+.caption {
+    font-family;
+    font-size: 44px;
+    letter-spacing: 2px;    
+    
+}
+
+.description {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 580px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.button {
+    width: 225px;
+    height: 65px;
+    text-transform: uppercase;
+    background-color: #34547A;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    background-color: #607da3;
+}
