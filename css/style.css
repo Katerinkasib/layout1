@@ -51,6 +51,8 @@
 
 .header-menu {
     padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
     
 }
 
@@ -89,6 +91,10 @@ nav ul li a:hover {
     background-color: rgb(97, 101, 122);
 }
 
+.burger-icon span:nth-child(even) {
+    margin: 6px 0;
+}
+
 .section-container {
     display: flex;
     justify-content: space-between;
@@ -100,9 +106,7 @@ nav ul li a:hover {
     padding-left: 170px;
 }
 
-.right-part {
 
-}
 
 .caption {
     font-family;
@@ -114,9 +118,10 @@ nav ul li a:hover {
 .description {
     margin-bottom: 50px;
     margin-top: 50px;
-    width: 580px;
+    width: 555px;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 26.25px;
+    letter-spacing: 0.627px;
 }
 
 .button {
@@ -131,4 +136,18 @@ nav ul li a:hover {
 
 .button:hover {
     background-color: #607da3;
+}
+
+@media screen and (max-width:1250px) {
+    .description {
+    margin-bottom: 50px;
+    margin-top: 70px;
+    width: 100%;
+   
+}
+.right-part {
+padding: 80px;
+}
+
+
 }
